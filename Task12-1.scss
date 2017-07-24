@@ -1,0 +1,175 @@
+$color1: rgb(95,192,205);
+$color2: white;
+$color3: darkgray;
+$color4: lightgray;
+$fontsize1: 1rem;
+$fontsize2: 0.6rem;
+$width: 100%;
+body{
+    margin: 0;
+    padding: 0;
+    font-size:62.5%;
+}
+header{
+    position: absolute;
+    top: 0;
+    width: $width;
+    height: 2.9rem;  
+    background-color: $color1;
+    color: $color2;
+}   
+h1{
+    float: left;
+    margin: 0.6rem 0 0 0.6rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: $color2;
+    cursor: pointer;
+}
+h2{ 
+    padding: 0 1.5rem 0 0;
+    line-height: 1.2rem;
+    font-size: $fontsize1;
+    font-weight: bold;
+    text-align: center;
+}
+main{
+    position: absolute;
+    top: 2.9rem;
+    bottom: 4rem;
+    width: $width;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.background{
+    position: relative;
+    background: url(img/1-background.png)no-repeat center;
+    background-size: cover;
+    width: $width;
+    height: 10.15rem;
+}
+.img1{
+    position: absolute;
+    top: 2.8rem;
+    left: 1.25rem;
+    width: 4.6rem;
+    height: 4.6rem;
+    border-radius: 50%;    
+    overflow: hidden;
+    background-color: $color2;
+}
+.name{
+    float: left;
+    padding: 2.95rem 0 0 7.5rem;
+    font-size: 0.9rem;
+    color: $color2;
+}
+.img2{
+    position:absolute;
+    padding: 5.4rem 0 0 7.5rem;
+}
+.adress{
+    position: absolute;
+    padding: 4.6rem 0 0 8.75rem;
+    font-size: $fontsize2;
+    color: $color2;     
+}
+li{
+    display: flex;
+    flex-direction: column;
+}
+line1,line2,line3,line4{
+    border-bottom: 1px solid $color4;
+}
+line1,line3{
+    height: 3.15rem;
+}
+line2,line3{
+    margin: 0 0 0 0.6rem;
+}
+line2,line3,line4{
+    display: flex;
+    font-size: 0.7rem;
+}
+line2{
+    height: 3.1rem;
+}
+line4{
+    padding: 0 0.6rem;
+}
+.skill{
+    margin: 1.1rem 0 0 0.6rem;
+    font-size: $fontsize2;
+    font-weight: bold;
+    border-left: 3px solid rgb(95,192,205);
+}
+.img3,.img4{
+    margin: 1.1rem 0 0 0.65rem;
+}
+.star{
+    padding: 0.3rem 0 0 0.2rem;
+}
+.img4{
+    padding: 0 0 0 0.65rem;
+    height: 0.9rem;
+    border-left: 1px solid $color4;  
+}
+.form-left{
+    margin: 1.05rem 0 0 0.65rem;
+    color: $color3;
+}
+.form-right,.form-important{
+    margin: 0.95rem 0 0.95rem 0.75rem;
+    padding: 0.15rem 0 0 0.7rem;
+    border-left: 1px solid $color4;
+}
+.form-important{
+    color: rgb(226,97,99);
+}
+.introduce{
+    margin: auto 0 auto 0.65rem;
+    padding: 0.05rem 0.75rem 0 0;
+    width: auto;
+    height: 100%;
+    color: $color3;
+    line-height: 1.2rem;
+    white-space: nowrap;
+    border-right: 1px solid $color4;
+}
+.works{
+    margin: 0.8rem 0.8rem 0.9rem 0;
+    padding: 0.15rem 0 0 0.7rem;
+    line-height: 1.3rem;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    left: 0.6rem;
+    right: 0.6rem;
+    height: 3.45rem;
+    display: flex;
+    padding: 0.5rem 0 0 0;
+    font-size: $fontsize1;
+    background-color: $color2;
+    text-align: center;
+}
+f1{
+    margin: 0 0.3rem 0 0;
+    padding: 0.6rem 0 0 0;
+    width: 50%;
+    height: 2rem;
+    color: $color1;
+    border: 2px solid $color1;
+    border-radius:5px;
+    cursor: pointer;
+}
+f2{
+    margin: 0 0 0 0.3rem;
+    padding: 0.75rem 0 0 0;
+    width: 50%;
+    height: 2.1rem;
+    color: $color2;
+    background-color: $color1;
+    border-radius:5px;
+    cursor: pointer;
+}

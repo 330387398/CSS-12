@@ -1,0 +1,282 @@
+$color1: rgb(95,192,205);
+$color2: white;
+$color3: darkgray;
+$color4: lightgray;
+$fontsize: 1rem;
+$width: 100%;
+$height1: 2rem;
+$height2: 3rem;
+$height3: 4.5rem;
+body{
+    margin: 0;
+    padding: 0;
+    font-size:62.5%;
+}
+header{
+    position: absolute;
+    top: 0;
+    width: $width;
+    height: $height2;
+    background-color: $color1;
+}
+.topleft{
+    margin: 0.5rem auto;
+    width: 8rem;
+    height: $height1;
+    display: flex;
+    font-size: $fontsize;
+    background-color: rgb(85,168,179);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.findleft,.findright{
+    padding: 0.25rem 0 0 0.5rem;
+    white-space: nowrap;
+}
+.findleft{
+    color: $color2;    
+}
+.topright{
+    margin: 0 0 0 0.5rem;
+    width: 4rem;
+    height: $height1;
+    background-color: $color2;    
+    border-radius: 5px;    
+}
+.findright{    
+    color: $color1;
+}
+.img1{
+    position: absolute;
+    top: 0.6rem;
+    right: 1rem;
+    cursor: pointer;
+}
+.menu{
+    position: absolute;
+    top: 3rem;
+    margin: 0 0 0 -0.1rem;
+    padding: 0 0.1rem 0 0;
+    width: $width;
+    height: $height2;
+    border-bottom: 1px solid $color4;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+.down1,.down2,.down3{
+    margin: 0 -0.3rem 0 0;
+    height: $height2;
+    color: $color3;
+    font-size: $fontsize;
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid $color4;
+    border-right: none;
+    -webkit-appearance:none;
+    cursor: pointer;
+}
+.down1,.down2{
+    width: 33.4%;
+}
+.down3{
+    width: 34%;
+}
+.down1,.down3{
+    padding: 0 0 0 14%;
+}
+.down2{
+    padding: 0 0 0 15.5%;
+}
+.img2,.img3,.img4{
+    position: absolute;
+    top: 1rem;
+}
+.img2{
+    left: 30%;
+}
+.img3{
+    left: 63.4%;
+}
+.img4{
+    left: 97%;
+}
+@media only screen and (max-width: 1100px) {
+    .down1,.down3{
+        padding: 0 0 0 13%;
+    }
+    .down2{
+        padding: 0 0 0 15%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .down2{
+        padding: 0 0 0 14%;
+    }
+    .down3{
+        padding: 0 0 0 12%
+    }
+}
+@media only screen and (max-width: 650px) {
+    .down1{
+        padding: 0 0 0 12%;
+    }
+    .down3{
+        padding: 0 0 0 11%;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .down2{
+        padding: 0 0 0 13%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .down1{
+        padding: 0 0 0 11%;
+    }
+    .down3{
+        padding: 0 0 0 10%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .down1{
+        padding: 0 0 0 10%;
+    }
+    .down2{
+         padding: 0 0 0 12%;
+    }
+    .down3{
+        padding: 0 0 0 8%;
+        width: 34.5%;
+    }
+    .img2{
+        left: 29%;
+    }
+    .img3{
+        left: 62%;
+    }
+    .img4{
+        left: 96%;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .down1{
+        padding: 0 0 0 9%;
+    }
+    .down2{
+         padding: 0 0 0 11%;
+    }
+    .down3{
+        padding: 0 0 0 7%;
+    }
+}
+main{
+    position: absolute;
+    top: 6rem;
+    bottom: 4.5rem;
+    width: $width;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.row{
+    width: $width;
+    height: 7rem;
+    font-size: $fontsize;
+    border-bottom: 1px solid $color4;
+}
+.row1,.row2,.row3{
+    display: flex;
+}
+.row1,.row3{
+    color: $color3;
+}
+.row2{
+    margin: -0.5rem 0 0 0;
+}
+.row3{
+    margin: 0.3rem 0 0 0;
+}
+.img5{
+    margin: 1rem 0 0 1rem;
+}
+.img6{
+    margin: 0.1rem 0 0 1.1rem;
+}
+.date,.adress,.left{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.date{
+    margin: 0.9rem 0 0 0.5rem;
+}
+.adress{
+    margin: 0 0 0 0.5rem;
+}
+.left{
+    margin: 0.8rem 8rem 0 2.4rem;
+}
+.center,.right{
+    position: absolute;
+    margin: 0.8rem 0 0 0;
+}
+.center{    
+    right: 3rem;    
+    color: red;
+    white-space: nowrap;
+}
+.right{
+    right: 2rem;    
+    color: $color1;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer{
+    position: absolute;
+    bottom: 0;    
+    width: $width;
+    height: $height3;
+    background-color: rgb(248,250,251);
+}
+.border{
+    position: absolute;
+    top: 1rem;
+    left: 20%;
+    width: 60%;
+}
+.img7,.img8,.home,.mine,.f3{
+    cursor: pointer;
+}
+f1{
+    float: left;
+    color: $color1;
+}
+f2{
+    float: right;
+    color: gray;
+}
+.home{
+    margin: -0.1rem 0 0 0.2rem;
+}
+.mine{
+    margin: -0.1rem 0 0 0.1rem;
+}
+.f3{
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    width: 5rem;
+    height: $height3;
+    background-color: $color1;
+    border-radius: 50%;
+}
+.img8{
+    position: absolute;
+    top: 0.9rem;
+    left: 1.35rem;    
+}
+@media only screen and (max-width: 425px) {
+    .border{
+        left: 15%;
+        width: 70%;
+    }
+}

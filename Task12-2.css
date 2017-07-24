@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%; }
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: #5fc0cd; }
+
+.topleft {
+  margin: 0.5rem auto;
+  width: 8rem;
+  height: 2rem;
+  display: flex;
+  font-size: 1rem;
+  background-color: #55a8b3;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.findleft, .findright {
+  padding: 0.25rem 0 0 0.5rem;
+  white-space: nowrap; }
+
+.findleft {
+  color: white; }
+
+.topright {
+  margin: 0 0 0 0.5rem;
+  width: 4rem;
+  height: 2rem;
+  background-color: white;
+  border-radius: 5px; }
+
+.findright {
+  color: #5fc0cd; }
+
+.img1 {
+  position: absolute;
+  top: 0.6rem;
+  right: 1rem;
+  cursor: pointer; }
+
+.menu {
+  position: absolute;
+  top: 3rem;
+  margin: 0 0 0 -0.1rem;
+  padding: 0 0.1rem 0 0;
+  width: 100%;
+  height: 3rem;
+  border-bottom: 1px solid lightgray;
+  overflow-x: hidden;
+  white-space: nowrap; }
+
+.down1, .down2, .down3 {
+  margin: 0 -0.3rem 0 0;
+  height: 3rem;
+  color: darkgray;
+  font-size: 1rem;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px solid lightgray;
+  border-right: none;
+  -webkit-appearance: none;
+  cursor: pointer; }
+
+.down1, .down2 {
+  width: 33.4%; }
+
+.down3 {
+  width: 34%; }
+
+.down1, .down3 {
+  padding: 0 0 0 14%; }
+
+.down2 {
+  padding: 0 0 0 15.5%; }
+
+.img2, .img3, .img4 {
+  position: absolute;
+  top: 1rem; }
+
+.img2 {
+  left: 30%; }
+
+.img3 {
+  left: 63.4%; }
+
+.img4 {
+  left: 97%; }
+
+@media only screen and (max-width: 1100px) {
+  .down1, .down3 {
+    padding: 0 0 0 13%; }
+
+  .down2 {
+    padding: 0 0 0 15%; } }
+@media only screen and (max-width: 800px) {
+  .down2 {
+    padding: 0 0 0 14%; }
+
+  .down3 {
+    padding: 0 0 0 12%; } }
+@media only screen and (max-width: 650px) {
+  .down1 {
+    padding: 0 0 0 12%; }
+
+  .down3 {
+    padding: 0 0 0 11%; } }
+@media only screen and (max-width: 550px) {
+  .down2 {
+    padding: 0 0 0 13%; } }
+@media only screen and (max-width: 500px) {
+  .down1 {
+    padding: 0 0 0 11%; }
+
+  .down3 {
+    padding: 0 0 0 10%; } }
+@media only screen and (max-width: 425px) {
+  .down1 {
+    padding: 0 0 0 10%; }
+
+  .down2 {
+    padding: 0 0 0 12%; }
+
+  .down3 {
+    padding: 0 0 0 8%;
+    width: 34.5%; }
+
+  .img2 {
+    left: 29%; }
+
+  .img3 {
+    left: 62%; }
+
+  .img4 {
+    left: 96%; } }
+@media only screen and (max-width: 350px) {
+  .down1 {
+    padding: 0 0 0 9%; }
+
+  .down2 {
+    padding: 0 0 0 11%; }
+
+  .down3 {
+    padding: 0 0 0 7%; } }
+main {
+  position: absolute;
+  top: 6rem;
+  bottom: 4.5rem;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.row {
+  width: 100%;
+  height: 7rem;
+  font-size: 1rem;
+  border-bottom: 1px solid lightgray; }
+
+.row1, .row2, .row3 {
+  display: flex; }
+
+.row1, .row3 {
+  color: darkgray; }
+
+.row2 {
+  margin: -0.5rem 0 0 0; }
+
+.row3 {
+  margin: 0.3rem 0 0 0; }
+
+.img5 {
+  margin: 1rem 0 0 1rem; }
+
+.img6 {
+  margin: 0.1rem 0 0 1.1rem; }
+
+.date, .adress, .left {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.date {
+  margin: 0.9rem 0 0 0.5rem; }
+
+.adress {
+  margin: 0 0 0 0.5rem; }
+
+.left {
+  margin: 0.8rem 8rem 0 2.4rem; }
+
+.center, .right {
+  position: absolute;
+  margin: 0.8rem 0 0 0; }
+
+.center {
+  right: 3rem;
+  color: red;
+  white-space: nowrap; }
+
+.right {
+  right: 2rem;
+  color: #5fc0cd;
+  font-weight: bold;
+  cursor: pointer; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4.5rem;
+  background-color: #f8fafb; }
+
+.border {
+  position: absolute;
+  top: 1rem;
+  left: 20%;
+  width: 60%; }
+
+.img7, .img8, .home, .mine, .f3 {
+  cursor: pointer; }
+
+f1 {
+  float: left;
+  color: #5fc0cd; }
+
+f2 {
+  float: right;
+  color: gray; }
+
+.home {
+  margin: -0.1rem 0 0 0.2rem; }
+
+.mine {
+  margin: -0.1rem 0 0 0.1rem; }
+
+.f3 {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  width: 5rem;
+  height: 4.5rem;
+  background-color: #5fc0cd;
+  border-radius: 50%; }
+
+.img8 {
+  position: absolute;
+  top: 0.9rem;
+  left: 1.35rem; }
+
+@media only screen and (max-width: 425px) {
+  .border {
+    left: 15%;
+    width: 70%; } }
+
+/*# sourceMappingURL=Task12-2.css.map */
